@@ -1,0 +1,78 @@
+.outer-box{
+	height: 500px;
+	width: 450px;
+	background: linear-gradient(to bottom, #3333ff 0%, #ff99cc 100%);
+	margin: 0px auto;
+}
+.outer-box h1{
+	text-align: center;
+}
+/*for box 2*/
+.inner-box{
+	height: 400px;
+	width: 300px;
+	background-color:white;
+	margin: 0px auto;
+	border-radius: 10px;
+	
+	}
+.inner-box form {
+	margin: 10px 10px;
+	
+
+}
+.inner-box form input{
+	outline: none;
+	border: none;
+	background: none;
+}
+
+/*3rd box part*/
+.third-box{
+	height: 40px;
+	width: 300px;
+	 background: linear-gradient(to bottom, #6699ff 0%, #ff99ff 100%);
+	border-radius: 10px;
+}
+.third-box h1{
+	text-align: center;
+	font-size: 25px;
+}
+.button-box input{
+	margin: 0px 20px;
+	height: 30px;
+	width: 250px;
+	background: linear-gradient(to bottom, #3333ff 0%, #ff99cc 100%);
+	color: white;
+	border-radius:15px;
+}
+/*iccon button*/
+.social-media h1{
+	text-align: center;
+	font-size: 15px;
+}	
+.social-media{
+	text-align: center;
+	margin-left: -15px;
+}
+.social-media ul li{
+	list-style: none;
+display: inline-block;
+
+}
+.social-media ul li a i{
+	font-size:16px;
+	height: 30px;
+	width: 30px;
+	background: blue;
+	border-radius: 100px;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+	transition: 0.5s;
+	margin: 0px 5px;
+}
+.social-media ul li a i:hover{
+	background-color: red;
+	transition: 0.5s;
+	transform:scale(1.2);
